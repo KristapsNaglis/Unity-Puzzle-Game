@@ -1335,6 +1335,7 @@ GameObject:
   - component: {fileID: 374762495}
   - component: {fileID: 374762494}
   - component: {fileID: 374762497}
+  - component: {fileID: 374762498}
   m_Layer: 0
   m_Name: GameText
   m_TagString: Untagged
@@ -1424,7 +1425,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374762493}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28d57fb70d5069d4582de37087fbd886, type: 3}
   m_Name: 
@@ -1432,6 +1433,20 @@ MonoBehaviour:
   targetMid: {fileID: 44093034}
   targetFinal: {fileID: 687192127}
   smoothing: 0
+--- !u!114 &374762498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374762493}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88213778b63837d45aa2585d77952f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 687192127}
+  travelTime: 0
 --- !u!4 &378551366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -9051509026465713302, guid: f8f82fa54fea8e74197b6a99ff1a1982,
@@ -3380,7 +3395,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28d57fb70d5069d4582de37087fbd886, type: 3}
   m_Name: 
